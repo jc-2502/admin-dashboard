@@ -11,7 +11,7 @@
 
 /* ****************************** grid ****************************** */
 
-body, .sidebar, .logo-and-dashboard-name, .navigation, .navigation-top, .navigation-bottom, .navigation-item {
+body, .grid, .navigation-item {
   display: grid;
 }
 
