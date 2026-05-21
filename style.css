@@ -11,7 +11,7 @@
 
 /* ****************************** grid ****************************** */
 
-body, .sidebar, .logo-and-dashboard-name {
+body, .sidebar, .logo-and-dashboard-name, .navigation, .navigation-top, .navigation-bottom, .navigation-item {
   display: grid;
 }
 
@@ -26,8 +26,9 @@ body {
   grid-row: 1 / span 2;
 }
 
-.logo-and-dashboard-name {
+.logo-and-dashboard-name, .navigation-item {
   grid-auto-flow: column;
+  justify-content: start;
 }
 
 /* ****************************** sections ****************************** */
@@ -35,5 +36,19 @@ body {
 .logo {
   height: 75px;
   width: 75px;
+  border: 1px solid black;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navigation-item-icon {
+  height: 40px;
+  width: 40px;
   border: 1px solid black;
 }
