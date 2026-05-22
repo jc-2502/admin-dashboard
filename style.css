@@ -37,10 +37,13 @@ body {
 
 /* ****************************** sections ****************************** */
 
+.placeholder-border, .navigation-item-icon {
+  border: 1px solid black;
+}
+
 .logo {
   height: 75px;
   width: 75px;
-  border: 1px solid black;
 }
 
 ul {
@@ -54,5 +57,4 @@ li {
 .navigation-item-icon {
   height: 40px;
   width: 40px;
-  border: 1px solid black;
 }
