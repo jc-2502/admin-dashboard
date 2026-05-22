@@ -28,6 +28,9 @@ body {
 
 .column, .navigation-item {
   grid-auto-flow: column;
+}
+
+.logo-and-dashboard-name, .navigation-item, .search-section, .greeting-section {
   justify-content: start;
 }
 
@@ -35,11 +38,13 @@ body {
   grid-template-columns: 2fr 1fr;
 }
 
-/* ****************************** sections ****************************** */
+/* ****************************** shared rules ****************************** */
 
 .placeholder-border, .navigation-item-icon {
   border: 1px solid black;
 }
+
+/* ****************************** sidebar ****************************** */
 
 .logo {
   width: 75px;
@@ -58,6 +63,8 @@ li {
   width: 25px;
   height: 25px;
 }
+
+/* ****************************** header ****************************** */
 
 .search-icon {
   width: 20px;
@@ -88,3 +95,5 @@ li {
   width: 100px;
   height: 40px;
 }
+
+/* ****************************** main-content ****************************** */
