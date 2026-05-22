@@ -53,8 +53,8 @@ body {
 
 .header {
   grid-template-columns: 2fr 1fr;
-  padding: 25px 60px 15px 45px;
-  gap: 25px;
+  padding: 20px 60px 15px 45px;
+  gap: 30px;
 }
 
 .user-section {
