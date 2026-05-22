@@ -73,6 +73,10 @@ body {
   grid-template-rows: 1fr 1fr;
 }
 
+.projects-section {
+  grid-row: 1 / span 2;
+}
+
 /* ****************************** shared rules ****************************** */
 
 .placeholder-border, .navigation-item-icon {
