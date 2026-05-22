@@ -83,3 +83,8 @@ li {
   width: 75px;
   height: 75px;
 }
+
+.button-section button {
+  width: 100px;
+  height: 40px;
+}
