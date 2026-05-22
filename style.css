@@ -68,7 +68,10 @@ body {
 
 /* ****************************** main-content grids ****************************** */
 
-
+.main-content {
+  grid-template-columns: 5fr 2fr;
+  grid-template-rows: 1fr 1fr;
+}
 
 /* ****************************** shared rules ****************************** */
 
