@@ -31,6 +31,10 @@ body {
   justify-content: start;
 }
 
+.header {
+  grid-template-columns: 2fr 1fr;
+}
+
 /* ****************************** sections ****************************** */
 
 .logo {
