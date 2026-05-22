@@ -77,6 +77,13 @@ body {
   grid-row: 1 / span 2;
 }
 
+.projects {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 25px;
+  row-gap: 30px;
+}
+
 /* ****************************** shared rules ****************************** */
 
 .placeholder-border, .navigation-item-icon {
