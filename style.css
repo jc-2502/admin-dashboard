@@ -84,6 +84,14 @@ body {
   row-gap: 30px;
 }
 
+.projects-section, .announcements-section, .trending-section {
+  grid-template-rows: auto 1fr;
+}
+
+.project {
+  grid-template-rows: auto 1fr auto;
+}
+
 /* ****************************** shared rules ****************************** */
 
 .placeholder-border, .navigation-item-icon {
