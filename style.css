@@ -55,6 +55,11 @@ body {
   grid-template-columns: 2fr 1fr;
 }
 
+.user-section {
+  justify-content: end;
+  gap: 30px;
+}
+
 /* ****************************** main-content grids ****************************** */
 
 
