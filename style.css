@@ -62,6 +62,10 @@ body {
   gap: 30px;
 }
 
+.button-section {
+  justify-items: center;
+}
+
 /* ****************************** main-content grids ****************************** */
 
 
