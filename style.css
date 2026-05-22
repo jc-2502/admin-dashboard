@@ -9,7 +9,7 @@
   margin: 0;
 }
 
-/* ****************************** grid ****************************** */
+/* ****************************** shared grid rules ****************************** */
 
 body, .grid, .navigation-item {
   display: grid;
@@ -22,10 +22,6 @@ body {
   grid-template-rows: 1fr 5fr;
 }
 
-.sidebar {
-  grid-row: 1 / span 2;
-}
-
 .column, .navigation-item {
   grid-auto-flow: column;
 }
@@ -34,9 +30,34 @@ body {
   justify-content: start;
 }
 
+/* ****************************** sidebar grids ****************************** */
+
+.sidebar, .navigation, .navigation > ul {
+  align-content: start;
+}
+
+.sidebar {
+  grid-row: 1 / span 2;
+  gap: 60px;
+}
+
+.navigation {
+  gap: 75px;
+}
+
+.navigation > ul {
+  gap: 30px;
+}
+
+/* ****************************** header grids ****************************** */
+
 .header {
   grid-template-columns: 2fr 1fr;
 }
+
+/* ****************************** main-content grids ****************************** */
+
+
 
 /* ****************************** shared rules ****************************** */
 
