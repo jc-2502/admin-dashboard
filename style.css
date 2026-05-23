@@ -97,6 +97,10 @@ body {
   gap: 30px;
 }
 
+.announcements {
+  align-items: center;
+}
+
 /* ****************************** shared rules ****************************** */
 
 .placeholder-border, .navigation-item-icon {
