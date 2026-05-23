@@ -11,7 +11,7 @@
 
 /* ****************************** shared grid rules ****************************** */
 
-body, .grid, .navigation-item, .trending-item {
+body, .grid, .navigation-item, .project, .project-icons, .trending-item {
   display: grid;
 }
 
@@ -22,7 +22,7 @@ body {
   grid-template-rows: 1fr 5fr;
 }
 
-.column, .navigation-item {
+.column, .navigation-item, .project-icons {
   grid-auto-flow: column;
 }
 
@@ -112,7 +112,7 @@ body {
 
 /* ****************************** shared rules ****************************** */
 
-.placeholder-border, .navigation-item-icon {
+.placeholder-border, .navigation-item-icon, .favourite, .watch, .share, .profile-picture {
   border: 1px solid black;
 }
 
