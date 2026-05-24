@@ -126,6 +126,10 @@ body {
   color: white;
 }
 
+.project, .announcements, .trending-items {
+  background-color: white;
+}
+
 /* ****************************** sidebar ****************************** */
 
 .logo {
