@@ -121,11 +121,12 @@ body {
   border: 1px solid black;
 }
 
-/* ****************************** sidebar ****************************** */
-
-.sidebar {
+.sidebar, .button-section button {
   background-color: var(--shared-blue);
+  color: white;
 }
+
+/* ****************************** sidebar ****************************** */
 
 .logo {
   width: 75px;
@@ -176,7 +177,6 @@ li {
 .button-section button {
   width: 100px;
   height: 40px;
-  background-color: var(--shared-blue);
 }
 
 /* ****************************** main-content ****************************** */
