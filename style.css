@@ -130,6 +130,10 @@ body {
   background-color: white;
 }
 
+.navigation, .name {
+  font-weight: bold;
+}
+
 /* ****************************** sidebar ****************************** */
 
 .logo {
@@ -143,7 +147,6 @@ body {
 
 .navigation {
   font-size: 22px;
-  font-weight: bold;
 }
 
 ul {
@@ -184,7 +187,6 @@ li {
 
 .name {
   font-size: 18px;
-  font-weight: bold;
 }
 
 .greeting-section > .profile-picture {
