@@ -130,7 +130,7 @@ body {
   background-color: white;
 }
 
-.navigation, .name {
+.navigation, .name, .greeting {
   font-weight: bold;
 }
 
@@ -192,6 +192,14 @@ li {
 .greeting-section > .profile-picture {
   width: 75px;
   height: 75px;
+}
+
+.greeting-text {
+  font-size: 14px;
+}
+
+.name-and-username {
+  font-size: 24px;
 }
 
 .button-section button {
