@@ -37,7 +37,7 @@ body {
 
 /* ****************************** sidebar grids ****************************** */
 
-.sidebar, .navigation, .navigation > ul {
+.sidebar, .navigation, .navigation ul {
   align-content: start;
 }
 
@@ -50,7 +50,7 @@ body {
   gap: 75px;
 }
 
-.navigation > ul {
+.navigation ul {
   gap: 30px;
 }
 
@@ -111,7 +111,7 @@ body {
   align-content: center;
 }
 
-.trending-item > .profile-picture {
+.trending-item .profile-picture {
   grid-row: 1 / span 2;
 }
 
@@ -180,7 +180,7 @@ li {
   height: 25px;
 }
 
-.user-section > .profile-picture {
+.user-section .profile-picture {
   width: 50px;
   height: 50px;
 }
@@ -189,7 +189,7 @@ li {
   font-size: 18px;
 }
 
-.greeting-section > .profile-picture {
+.greeting-section .profile-picture {
   width: 75px;
   height: 75px;
 }
@@ -240,7 +240,7 @@ li {
   font-size: 12px;
 }
 
-.trending-item > .profile-picture {
+.trending-item .profile-picture {
   width: 50px;
   height: 50px;
 }
