@@ -219,6 +219,10 @@ li {
   font-weight: 500;
 }
 
+.project h3 {
+  font-size: 18px;
+}
+
 .favourite-project, .watch-project, .share-project {
   width: 25px;
   height: 25px;
