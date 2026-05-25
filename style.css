@@ -219,6 +219,10 @@ li {
   font-weight: 500;
 }
 
+.project p, .announcement p, .trending-item p:not(:first-of-type) {
+  color: rgb(99, 99, 99);
+}
+
 .project h3 {
   font-size: 18px;
 }
