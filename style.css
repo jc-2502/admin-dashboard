@@ -46,6 +46,23 @@ body {
   gap: 60px;
 }
 
+.logo {
+  width: 36px;
+  height: 36px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 12px 4px 12px;
+  gap: 4px;
+}
+
+.logo-rectangle:nth-child(1) {
+  grid-row: 1 / span 2;
+}
+
+.logo-rectangle:nth-child(4) {
+  grid-column: 2;
+  grid-row: 2 / span 2;
+}
+
 .navigation {
   gap: 75px;
 }
@@ -136,9 +153,8 @@ body {
 
 /* ****************************** sidebar ****************************** */
 
-.logo {
-  width: 75px;
-  height: 75px;
+.logo-rectangle {
+  background-color: white;
 }
 
 .dashboard-name {
