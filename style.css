@@ -214,6 +214,11 @@ li {
   background-color: var(--shared-gray);
 }
 
+.main-content h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .favourite-project, .watch-project, .share-project {
   width: 25px;
   height: 25px;
