@@ -117,7 +117,7 @@ body {
 
 /* ****************************** shared rules ****************************** */
 
-.placeholder-border, .navigation-item-icon, .favourite, .watch, .share, .profile-picture {
+.placeholder-border, .navigation-item-icon, .favourite-project, .watch-project, .share-project, .profile-picture {
   border: 1px solid black;
 }
 
@@ -214,7 +214,7 @@ li {
   background-color: var(--shared-gray);
 }
 
-.favourite, .watch, .share {
+.favourite-project, .watch-project, .share-project {
   width: 25px;
   height: 25px;
 }
