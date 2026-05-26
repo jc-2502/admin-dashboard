@@ -79,6 +79,10 @@ body {
   gap: 30px;
 }
 
+.search-section {
+  grid-template-columns: auto 1fr;
+}
+
 .user-section {
   justify-content: end;
   gap: 30px;
@@ -190,7 +194,6 @@ li {
 }
 
 .search-bar {
-  width: 900px;
   height: 30px;
   background-color: var(--shared-gray);
   border-radius: 13px;
