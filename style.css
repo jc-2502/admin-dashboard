@@ -172,6 +172,10 @@ body {
   padding: 30px 25px;
 }
 
+.logo-and-dashboard-name {
+  gap: 20px;
+}
+
 .logo-rectangle {
   background-color: white;
 }
