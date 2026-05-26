@@ -101,6 +101,8 @@ body {
 .main-content {
   grid-template-columns: 5fr 2fr;
   grid-template-rows: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
 }
 
 .projects-section {
