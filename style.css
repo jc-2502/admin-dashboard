@@ -16,7 +16,7 @@
 
 /* ****************************** shared grid rules ****************************** */
 
-body, .grid, .navigation-item, .project, .project-icons, .trending-item {
+body, .grid, .navigation-item, .project, .project-icons, .announcement, .trending-item {
   display: grid;
 }
 
@@ -127,8 +127,8 @@ body {
   gap: 30px;
 }
 
-.announcements {
-  align-items: center;
+.announcement {
+  align-content: center;
 }
 
 .trending-item {
@@ -260,6 +260,18 @@ li {
 .favourite-project, .watch-project, .share-project {
   width: 25px;
   height: 25px;
+}
+
+.announcements {
+  padding: 25px;
+}
+
+.announcement {
+  padding: 10px 5px;
+}
+
+.announcement:not(:first-child) {
+  border-top: 1px solid rgb(210, 210, 210);
 }
 
 .announcement h4 {
