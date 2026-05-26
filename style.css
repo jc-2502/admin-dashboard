@@ -168,6 +168,10 @@ body {
 
 /* ****************************** sidebar ****************************** */
 
+.sidebar {
+  padding: 30px 25px;
+}
+
 .logo-rectangle {
   background-color: white;
 }
