@@ -196,6 +196,10 @@ li {
   list-style-type: none;
 }
 
+.navigation-item {
+  gap: 25px;
+}
+
 .navigation-item-icon {
   width: 25px;
   height: 25px;
