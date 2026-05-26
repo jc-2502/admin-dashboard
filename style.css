@@ -257,8 +257,16 @@ li {
   color: rgb(99, 99, 99);
 }
 
+.project {
+  padding: 20px 20px 30px 30px;
+}
+
 .project h3 {
   font-size: 18px;
+}
+
+.project-icons {
+  margin-top: 15px;
 }
 
 .favourite-project, .watch-project, .share-project {
