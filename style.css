@@ -35,6 +35,10 @@ body {
   justify-content: start;
 }
 
+.project, .announcements, .trending-items {
+  border-radius: 8px;
+}
+
 /* ****************************** sidebar grids ****************************** */
 
 .sidebar, .navigation, .navigation ul {
