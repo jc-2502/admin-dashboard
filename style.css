@@ -189,6 +189,7 @@ li {
   width: 900px;
   height: 30px;
   background-color: var(--shared-gray);
+  border-radius: 13px;
 }
 
 .alerts {
