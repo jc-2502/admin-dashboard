@@ -296,7 +296,8 @@ li {
 }
 
 .project {
-  padding: 20px 20px 30px 30px;
+  padding: 20px 20px 30px 20px;
+  border-left: 8px solid #f0b429;
 }
 
 .project h3 {
