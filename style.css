@@ -98,6 +98,7 @@ body {
 
 .greeting-section {
   align-items: center;
+  gap: 20px;
 }
 
 .button-section {
