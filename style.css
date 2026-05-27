@@ -176,12 +176,6 @@ body {
   color: white;
 }
 
-.project, .announcements, .trending-items {
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 1px 2px 4px 2px var(--shadow-gray);
-}
-
 .navigation, .name, .greeting, .button-section button {
   font-weight: bold;
 }
@@ -289,6 +283,12 @@ li {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 10px;
+}
+
+.project, .announcements, .trending-items {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 1px 2px 4px 2px var(--shadow-gray);
 }
 
 .project p, .announcement p, .trending-item p:not(:first-of-type) {
