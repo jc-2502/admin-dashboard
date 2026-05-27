@@ -12,6 +12,7 @@
 :root {
   --shared-blue: #1992d4;
   --shared-gray: #e2e8f0;
+  --shadow-gray: rgb(205, 210, 215)
 }
 
 /* ****************************** shared grid rules ****************************** */
@@ -178,7 +179,7 @@ body {
 .project, .announcements, .trending-items {
   background-color: white;
   border-radius: 8px;
-  box-shadow: 1px 2px 4px 2px rgb(205, 210, 215);
+  box-shadow: 1px 2px 4px 2px var(--shadow-gray);
 }
 
 .navigation, .name, .greeting, .button-section button {
@@ -281,6 +282,7 @@ li {
 
 .main-content {
   background-color: var(--shared-gray);
+  box-shadow: inset 0px 5px 3px var(--shadow-gray);
 }
 
 .main-content h2 {
