@@ -87,10 +87,13 @@ body {
   gap: 30px;
 }
 
+.header > div {
+  align-items: center;
+}
+
 .search-section {
   grid-template-columns: auto 1fr;
   gap: 20px;
-  align-items: center;
 }
 
 .user-section {
@@ -99,12 +102,10 @@ body {
 }
 
 .greeting-section {
-  align-items: center;
   gap: 20px;
 }
 
 .button-section {
-  align-items: center;
   gap: 30px;
 }
 
