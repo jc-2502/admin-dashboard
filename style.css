@@ -82,7 +82,7 @@ body {
 /* ****************************** header grids ****************************** */
 
 .header {
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr auto;
   padding: 20px 60px 15px 45px;
   gap: 30px;
 }
@@ -101,7 +101,8 @@ body {
 }
 
 .button-section {
-  justify-items: center;
+  align-items: center;
+  gap: 30px;
 }
 
 /* ****************************** main-content grids ****************************** */
