@@ -75,6 +75,10 @@ body {
   gap: 30px;
 }
 
+.navigation-item {
+  align-items: center;
+}
+
 /* ****************************** header grids ****************************** */
 
 .header {
