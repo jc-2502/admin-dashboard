@@ -139,10 +139,20 @@ body {
   align-content: center;
   align-items: center;
   column-gap: 20px;
+  row-gap: 5px;
 }
 
 .trending-item .profile-picture {
   grid-row: 1 / span 2;
+  align-self: center;
+}
+
+.trending-item p:nth-of-type(1) {
+  align-self: end;
+}
+
+.trending-item p:nth-of-type(2) {
+  align-self: start;
 }
 
 /* ****************************** shared rules ****************************** */
