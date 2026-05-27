@@ -96,6 +96,10 @@ body {
   gap: 30px;
 }
 
+.greeting-section {
+  align-items: center;
+}
+
 .button-section {
   justify-items: center;
 }
