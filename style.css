@@ -140,6 +140,7 @@ body {
 .project-icons {
   justify-content: end;
   gap: 30px;
+  align-items: center;
 }
 
 .announcement {
@@ -320,6 +321,10 @@ li {
 .favourite-project, .watch-project, .share-project {
   width: 25px;
   height: 25px;
+}
+
+.favourite-project:active, .watch-project:active, .share-project:active {
+  transform: scale(0.92);
 }
 
 .announcements {
