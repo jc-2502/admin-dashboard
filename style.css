@@ -170,7 +170,7 @@ body {
 
 /* ****************************** shared rules ****************************** */
 
-.placeholder-border, .navigation-item-icon, .favourite-project, .watch-project, .share-project, .profile-picture {
+.placeholder-border, .favourite-project, .watch-project, .share-project, .profile-picture {
   border: 1px solid black;
 }
 
