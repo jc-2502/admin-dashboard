@@ -11,6 +11,8 @@
 
 :root {
   --shared-blue: #1992d4;
+  --focused-blue: #0982c4;
+  --shadow-blue: #0062a4;
   --shared-gray: #e2e8f0;
   --shadow-gray: rgb(205, 210, 215)
 }
@@ -268,8 +270,14 @@ li {
   width: 100px;
   height: 40px;
   font-size: 16px;
-  border: var(--shared-blue);
+  border: 1px solid var(--shared-blue);
   border-radius: 19px;
+}
+
+.button-section button:active {
+  background-color: var(--focused-blue);
+  border: 1px solid var(--focused-blue);
+  box-shadow: inset 0px 0px 5px var(--shadow-blue);
 }
 
 /* ****************************** main-content ****************************** */
