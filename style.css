@@ -91,6 +91,12 @@ body {
   gap: 30px;
 }
 
+@media (max-width: 953px) {
+  .header {
+    padding: 20px 30px 15px 20px;
+  }
+}
+
 .header > div {
   align-items: center;
 }
@@ -100,9 +106,21 @@ body {
   gap: 20px;
 }
 
+@media (max-width: 953px) {
+  .search-section {
+    gap: 10px;
+  }
+}
+
 .user-section {
   justify-content: end;
   gap: 30px;
+}
+
+@media (max-width: 953px) {
+  .user-section {
+    gap: 20px;
+  }
 }
 
 .greeting-section {
