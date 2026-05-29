@@ -14,7 +14,7 @@
   --focused-blue: #0982c4;
   --shadow-blue: #0062a4;
   --shared-gray: #e2e8f0;
-  --shadow-gray: rgb(205, 210, 215)
+  --shadow-gray: rgb(205, 210, 215);
 }
 
 /* ****************************** shared grid rules ****************************** */
@@ -189,6 +189,10 @@ body {
 
 .announcement {
   align-content: center;
+}
+
+.trending-items {
+  gap: 25px;
 }
 
 .trending-item {
