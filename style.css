@@ -19,7 +19,7 @@
 
 /* ****************************** shared grid rules ****************************** */
 
-body, .grid, .navigation-item, .project, .project-icons, .announcement, .trending-item {
+body, .grid, .navigation-item, .profile-picture-container, .project, .project-icons, .announcement, .trending-item {
   display: grid;
 }
 
@@ -36,6 +36,11 @@ body {
 
 .logo-and-dashboard-name, .navigation-item, .search-section, .greeting-section, .trending-item {
   justify-content: start;
+}
+
+.profile-picture-container {
+  justify-items: center;
+  align-items: center;
 }
 
 /* ****************************** sidebar grids ****************************** */
@@ -155,7 +160,7 @@ body {
   row-gap: 5px;
 }
 
-.trending-item .profile-picture {
+.trending-item .profile-picture-container {
   grid-row: 1 / span 2;
   align-self: center;
 }
@@ -170,10 +175,6 @@ body {
 
 /* ****************************** shared rules ****************************** */
 
-.placeholder-border, .profile-picture {
-  border: 1px solid black;
-}
-
 .sidebar, .button-section button {
   background-color: var(--shared-blue);
   color: white;
@@ -183,8 +184,15 @@ body {
   font-weight: bold;
 }
 
-.profile-picture {
+.profile-picture-container {
   border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-picture {
+  object-fit: contain;
+  max-height: 80%;
+  max-width: 80%;
 }
 
 /* ****************************** sidebar ****************************** */
@@ -249,7 +257,7 @@ li {
   height: 25px;
 }
 
-.user-section .profile-picture {
+.user-section .profile-picture-container {
   width: 50px;
   height: 50px;
 }
@@ -258,7 +266,7 @@ li {
   font-size: 18px;
 }
 
-.greeting-section .profile-picture {
+.greeting-section .profile-picture-container {
   width: 75px;
   height: 75px;
 }
@@ -355,7 +363,7 @@ li {
   padding: 20px 25px 25px 25px;
 }
 
-.trending-item .profile-picture {
+.trending-item .profile-picture-container {
   width: 50px;
   height: 50px;
 }
