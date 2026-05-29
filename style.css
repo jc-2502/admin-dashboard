@@ -113,6 +113,14 @@ body {
   gap: 30px;
 }
 
+@media (max-width: 953px) {
+  .button-section {
+    grid-auto-flow: row;
+    gap: 10px;
+    justify-items: end;
+  }
+}
+
 /* ****************************** main-content grids ****************************** */
 
 .main-content {
@@ -121,6 +129,13 @@ body {
   column-gap: 20px;
   row-gap: 40px;
   padding: 35px 30px 65px 20px;
+}
+
+@media (max-width: 953px) {
+  .main-content {
+    grid-template-rows: auto 1fr;
+    align-items: start;
+  }
 }
 
 .projects-section {
@@ -136,6 +151,12 @@ body {
   grid-auto-rows: 1fr;
   column-gap: 25px;
   row-gap: 30px;
+}
+
+@media (max-width: 953px) {
+  .projects {
+    grid-template-columns: auto;
+  }
 }
 
 .project {
@@ -264,6 +285,7 @@ li {
 
 .name {
   font-size: 18px;
+  text-align: center;
 }
 
 .greeting-section .profile-picture-container {
