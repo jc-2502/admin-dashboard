@@ -184,6 +184,7 @@ body {
 @media (max-width: 953px) {
   .projects {
     grid-template-columns: auto;
+    grid-auto-rows: auto;
   }
 }
 
@@ -376,12 +377,18 @@ li {
   border-left: 8px solid #f0b429;
 }
 
+@media (max-width: 953px) {
+  .project {
+    padding-bottom: 20px;
+  }
+}
+
 .project h3 {
   font-size: 18px;
 }
 
 .project-icons {
-  margin-top: 15px;
+  margin-top: 20px;
   margin-right: 15px;
 }
 
