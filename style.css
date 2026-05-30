@@ -392,12 +392,12 @@ li {
   margin-right: 15px;
 }
 
-.favourite-project, .watch-project, .share-project {
+.favourite, .watch, .fork {
   width: 25px;
   height: 25px;
 }
 
-.favourite-project:active, .watch-project:active, .share-project:active {
+.favourite:active, .watch:active, .fork:active {
   transform: scale(0.92);
 }
 
