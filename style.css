@@ -93,6 +93,7 @@ body {
 @media (max-width: 953px) {
   .header {
     padding: 20px 30px 15px 20px;
+    gap: 25px;
   }
 }
 
