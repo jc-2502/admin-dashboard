@@ -86,7 +86,6 @@ body {
 /* ****************************** header grids ****************************** */
 
 .header {
-  grid-template-columns: 1fr auto;
   padding: 20px 60px 15px 45px;
   gap: 30px;
 }
@@ -97,7 +96,18 @@ body {
   }
 }
 
-.header > div {
+/* 25px search icon + 10px gap + 200px search bar; */
+.header-top {
+  grid-template-columns: minmax(235px, 1fr) auto;
+  gap: 30px;
+}
+
+.header-bottom {
+  grid-template-columns: 1fr auto;
+  gap: 30px;
+}
+
+.header-top > div, .header-bottom > div {
   align-items: center;
 }
 
@@ -113,7 +123,6 @@ body {
 }
 
 .user-section {
-  justify-content: end;
   gap: 30px;
 }
 
@@ -293,6 +302,7 @@ li {
   height: 30px;
   background-color: var(--shared-gray);
   border-radius: 13px;
+  width: max(200px, 90%);
 }
 
 .alerts {
