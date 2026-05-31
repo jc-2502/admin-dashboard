@@ -108,7 +108,7 @@ body {
   gap: 30px;
 }
 
-.header-top > div, .header-bottom > div {
+.header-top > *, .header-bottom > div {
   align-items: center;
 }
 
@@ -305,6 +305,9 @@ li {
   background-color: var(--shared-gray);
   border-radius: 13px;
   width: max(200px, 90%);
+  border: none;
+  padding-left: 13px;
+  padding-right: 5px;
 }
 
 .alerts {
