@@ -46,9 +46,12 @@ body {
   align-items: center;
 }
 
-.profile-picture-container {
+.profile-picture-container, .search-button {
   justify-items: center;
   align-items: center;
+}
+
+.profile-picture-container {
   border-radius: 50%;
   overflow: hidden;
 }
@@ -155,6 +158,12 @@ ul {
 .search-section {
   grid-template-columns: auto 1fr;
   gap: 10px;
+}
+
+.search-button {
+  border: none;
+  padding: 0;
+  background: none;
 }
 
 .search-icon {
